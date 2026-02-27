@@ -28,12 +28,18 @@ for i in range(1, 10):
     """
 
     ### YOUR CODE HERE ###
-a1 = (a+b)/2
-b1 = math.sqrt(a*b)
-t1 = t-p*(a1-a)**2
-p1 = 2*p
+    a1 = (a+b)/2
+    b1 = math.sqrt(a*b)
+    t1 = t-p*(a1-a)**2
+    p1 = 2*p
+
+    a = a1
+    b = b1
+    t = t1
+    p = p1
+
     # print out the current loop iteration. This is present to have something in the loop.
-print("Loop Iteration: ", i)
+    print("Loop Iteration: ", i)
 
 """
 Step 3: After iterating 10 times, calculate the final value for PI
